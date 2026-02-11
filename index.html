@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>متجر أمير</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🛒 متجر أمير</h1>
+  <button onclick="toggleLang()">AR / EN</button>
+</header>
+
+<section id="products">
+  <h2 data-ar="المنتجات" data-en="Products">المنتجات</h2>
+
+  <div class="product">
+    <h3 data-ar="يوزرات تيليجرام" data-en="Telegram Usernames">يوزرات تيليجرام</h3>
+    <p>$10</p>
+    <button onclick="buy('Telegram Username - $10')">شراء</button>
+  </div>
+
+  <div class="product">
+    <h3 data-ar="يوزرات إنستغرام" data-en="Instagram Usernames">يوزرات إنستغرام</h3>
+    <p>$15</p>
+    <button onclick="buy('Instagram Username - $15')">شراء</button>
+  </div>
+
+  <div class="product">
+    <h3 data-ar="يوزرات تيك توك" data-en="TikTok Usernames">يوزرات تيك توك</h3>
+    <p>$20</p>
+    <button onclick="buy('TikTok Username - $20')">شراء</button>
+  </div>
+
+</section>
+
+<section id="payment">
+  <h2 data-ar="الدفع بالبيتكوين" data-en="Bitcoin Payment">الدفع بالبيتكوين</h2>
+  <p>BTC Address:</p>
+  <code>ضع_عنوان_البيتكوين_هنا</code>
+</section>
+
+<footer>
+  <p>© 2026 - متجر أمير</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
